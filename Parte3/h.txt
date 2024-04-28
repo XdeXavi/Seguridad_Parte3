@@ -1,0 +1,26 @@
+hashcat passwords.txt Para obtener los 
+
+hashcat -m 0 -a 3 passwords.txt -o h.txt
+0543a16407c956676c7527770b996ba8:etsii
+fc257028893a811ad50f3da9efc539a1:h4sh3s
+50d0b162eae39f52d344c2f19c27a71b:urjcg1s
+f2f89ecc8d1a400f9f434f16247a486a:urjcets1
+
+hashcat -m 100 -a 3  passwords.txt -o h.txt 
+970337e97c313fdbf46e4ad5ace0011a33f85540:urjc
+7c4a8d09ca3762af61e59520943dc26494f8941b:123456
+32743dd0c8254347a11c950aa644232be024acbb:urjcgis
+
+hashcat -m 100 -a 6 -1 ?l?d{} passwords.txt diccionario.txt -o h.txt --increment --increment-min 4 --increment-max 17 ?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1
+33ebb02ace4d4850c827b3b9ed44881aa116d528:urjcetsi
+2d03432e19d29c73a87d55b78db27c3651689192:urjc{gis}  
+54569099db00ced4f045beca963dbacbae35ae30:urjc{1234}
+
+f9bc8f1ee629e337efd71952cc5366793cedec95:urjc{passwo}
+
+hashcat -m 0 -a 6 -1 ?l?d{} passwords.txt diccionario.txt -o h.txt --increment --increment-min 4 --increment-max 17 ?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1
+4cd927a3707901dee513869884a82432:urjc{abcd}
+
+b19a86fb371b51dc04fa63ebaa44012f:urjc{cracke}
+
+400a6613eaf51911ca9f0bb1ed86d7b0:urjc{ugotittt}
